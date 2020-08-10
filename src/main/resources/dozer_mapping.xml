@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>au.com.digisui.wholesaleengineering.entity.Account</class-a>
+        <class-b>au.com.digisui.wholesaleengineering.dto.AccountDto</class-b>
+    </mapping>
+    <mapping>
+        <class-a>au.com.digisui.wholesaleengineering.entity.AccountTransaction</class-a>
+        <class-b>au.com.digisui.wholesaleengineering.dto.AccountTransactionDto</class-b>
+    </mapping>
+</mappings>
